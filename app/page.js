@@ -12,7 +12,7 @@ export default function Home() {
   const [emailResponse, setEmailResponse] = useState("");
 
   // Your backend API URL (change this after deploy)
-  const API_BASE = "http://localhost:5000";
+  const API_BASE = "https://mcp-server-nze2.onrender.com";
 
   const handleAskCV = async () => {
     try {
